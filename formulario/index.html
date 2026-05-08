@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário!!!!!!!!!</title>
 </head>
 <body>
-    <form>
-        <label>Informe seu nome: </label>
-        <input type="text">
+    <form action="processa.php">
+        <div class="campo">
+            <label for="inputnome">Informe seu nome: </label>
+            <input type="text" id="inputnome"> <!-- todos esses elementos são inline! é necessário quebrar a linha ou usar um div -->
+        </div>
+        <div class="campo">
+            <label for="inputdatanasc">Informe a data de nascimento: </label> 
+            <input type="date" id="inputdatanasc">
+        </div>
+        <div class="campo">
+            <label for="selectcidade">Selecione a cidade onde você reside: </label>
+            <select id="selectcidade">
+                <option>Parobé</option>
+                <option>Rolante</option>
+                <option>Igrejinha</option>
+                <option>Santo Antônio da Patrulha</option>
+                <option>Canoas</option>
+                <option>Gramado</option>
+                <option>Taquara</option>
+            </select>
+        </div>
+        <input type="submit" value="Enviar dados (isso é só um html e os dados não são enviados de verdade, o php não existe)">
     </form>
 </body>
 </html>
