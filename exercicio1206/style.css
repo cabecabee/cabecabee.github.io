@@ -1,6 +1,9 @@
 body {
     background-color: lightblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dashed;
+    border-color: blue;
+    margin: 0 auto;
 }
 h1 {
     color: darkblue;
@@ -13,7 +16,7 @@ h2 {
 }
 p {
     color:rgb(97, 97, 97);
-    font-size: 18px;
+    font-size: 110%;
 }
 .destaque {
     background-color: rgb(255, 255, 155);
