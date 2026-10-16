@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="time">Nome do Time:</label>
+        <input type="text" id="time" name="time"> <br> <br>
+
+        <label for="local">Localização:</label>
+        <input type="text" id="local" name="local"> <br> <br>
+
+        <label for="ano">Ano de Fundação:</label>
+        <input type="number" id="ano" name="ano"> <br> <br>
+
+        <label for="quant">Quantidade de Superbowls:</label>
+        <input type="number" id="quant" name="quant"> <br> <br>
+
+        <label for="conferencia">Conferência:</label>
+        <select id="conferencia" name="conferencia">
+            <option value="AFC North">AFC North</option>
+            <option value="AFC East">AFC East</option>
+            <option value="AFC South">AFC South</option>
+            <option value="AFC West">AFC West</option>
+            <option value="NFC North">NFC North</option>
+            <option value="NFC East">NFC East</option>
+            <option value="NFC South">NFC South</option>
+            <option value="NFC West">NFC West</option>
+        </select> <br> <br>
+
+        <label>Logo:</label>
+        <input type="file" id="logo" name="logo" accept="image/*"> <br> <br>
+
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
