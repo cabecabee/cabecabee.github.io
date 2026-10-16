@@ -6,10 +6,11 @@
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
+    <form id="formulario">
         <label for="time">Nome do Time:</label>
         <input type="text" id="time" name="time"> <br> <br>
 
@@ -37,7 +38,7 @@
         <label>Logo:</label>
         <input type="file" id="logo" name="logo" accept="image/*"> <br> <br>
 
-        <input type="submit" value="Salvar">
+        <input id="salvar" type="submit" value="Salvar">
     </form>
 </body>
 </html>
